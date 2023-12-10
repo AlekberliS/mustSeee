@@ -1,0 +1,173 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+.header{
+  width: 100%;
+  padding: 16px 30px;
+  height: 70px;
+  background-color: rgb(89, 177, 177);
+  margin-bottom: 10px;
+}
+button:hover{
+  cursor: pointer;
+  color: black;
+  background-color: rgb(46, 128, 128);
+}
+.siteName{
+  color: white;
+}
+.inputform{
+  margin:  10px 30px 10px 0;
+  display: flex;
+  gap: 10px;
+}
+.searchFilm{
+  margin:  40px 30px;
+}
+.searchInput{
+  width: 220px;
+  border: 0.2px solid black;
+  border-radius: 4px;
+}
+.searchBtn{
+  width: 80px;
+  height: 30px;
+  background-color:rgb(89, 177, 177) ;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+.writeListName{
+  width: 320px;
+  height: 30px;
+}
+.btnLists{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.addElementSection{
+  border: 0.6px solid black;
+  border-radius: 8px;
+  min-height: 200px;
+  max-height: 330px;
+
+  margin: 40px;
+  padding: 20px 20px 0 20px;
+}
+.mainn{
+  display:flex;
+  justify-content: space-between;
+}
+
+.movieCard{
+  background-color: antiquewhite;
+  display: flex;
+   width: 620px;
+   border-radius: 8px;
+   height: 320px;
+   padding: 20px;
+   gap: 10px;
+  margin: 30px ;
+}
+  .movieCardImg img{
+    width: 360px;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+.movieBtn{
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.listElementItem{
+ margin: 20px 0px;
+}
+ul{
+  list-style: none;
+  
+}
+.ListElementItemLi{
+  margin: 10px 0;
+}
+.deleteBtn{
+  float: right;
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 440px) {
+  .mainn{
+    display: flex; 
+   flex-direction: column;
+}
+.writeListName{
+ width: 98% !important;
+  
+}
+.movieCard {
+  width: 86%;
+ 
+}
+.searchFilmSection{
+  margin: 0  ;
+  width: 100% !important;
+ }
+ .searchFilm{
+  margin:  20px 0 20px -14px;
+ }
+.movieCard .searchBtn{
+  width: 86%;
+ 
+}
+.movieCardImg img{
+  width: 150px !important;
+}
+.btnLists{
+  display: flex;
+ 
+  margin-top: 20px;
+  justify-content: space-between;
+
+}
+
+}
+@media screen and (max-width: 900px){
+  .mainn{
+    display: flex; 
+   flex-direction: column;
+}
+.movieCardImg img{
+  width: 200px;
+}
+.movieCard{
+  background-color: antiquewhite;
+  display: flex;
+   width: 80%;
+  margin: 10px auto;
+}
+.addElementSection{
+ margin: 7px auto;
+  width: 80%
+}
+.writeListName{
+  width: 98% !important;
+   
+ }
+ .searchFilmSection{
+  margin: 10px 60px;
+  width: 80%
+ }
+ .searchInput{
+  width: 60%;
+}
+} */
